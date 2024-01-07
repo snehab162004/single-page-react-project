@@ -1,0 +1,27 @@
+body {
+    background-color: #353434;
+}
+.container {
+ margin: 4rem;
+ color: aliceblue;
+ font-family: sans-serif;
+ letter-spacing: 1px;
+}
+
+.container-heading {
+    font-size: 2.8rem;
+}
+
+.list-items {
+    margin-top: 1.4rem;
+    padding-left: 50px;
+    line-height: 2.3rem;
+    font-size: 1.3rem;
+    color: rgb(221, 221, 221);
+    margin-left: 2rem;
+}
+
+.list-items li::marker {
+     color: rgb(27, 214, 214);
+     font-size: 2rem;
+}
